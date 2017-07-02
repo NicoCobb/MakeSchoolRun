@@ -7,10 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7722DB3C1ECDAD5D00011DEA /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7722DB3B1ECDAD5D00011DEA /* Player.swift */; };
 		772E27881EC70A810058110D /* Platform.sks in Resources */ = {isa = PBXBuildFile; fileRef = 772E27871EC70A810058110D /* Platform.sks */; };
 		772E278A1EC70CB30058110D /* PlatformSetOne.sks in Resources */ = {isa = PBXBuildFile; fileRef = 772E27891EC70CB30058110D /* PlatformSetOne.sks */; };
-		7772CE031EC70DED00BDCC78 /* Spike.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7772CE021EC70DED00BDCC78 /* Spike.sks */; };
+		7746B6A41ED6DEC400F749F2 /* PlatformSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7746B6A31ED6DEC400F749F2 /* PlatformSet.swift */; };
+		7746B6A61ED82B9800F749F2 /* CoinSpawner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7746B6A51ED82B9800F749F2 /* CoinSpawner.swift */; };
+		7746B6A81ED82F4400F749F2 /* SpikeSpawner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7746B6A71ED82F4400F749F2 /* SpikeSpawner.swift */; };
+		7746B6AA1ED8307D00F749F2 /* Spike.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7746B6A91ED8307D00F749F2 /* Spike.sks */; };
+		7746B6AC1ED8358B00F749F2 /* GameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7746B6AB1ED8358B00F749F2 /* GameOver.sks */; };
+		7746B6AE1ED8359E00F749F2 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7746B6AD1ED8359E00F749F2 /* GameOver.swift */; };
+		774EB8C01ED1365700368E44 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774EB8BF1ED1365700368E44 /* Platform.swift */; };
+		774EB8C21ED2792900368E44 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774EB8C11ED2792900368E44 /* Coin.swift */; };
 		7772CE051EC748AA00BDCC78 /* CoinSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7772CE041EC748AA00BDCC78 /* CoinSingleton.swift */; };
+		7772CE071EC94E6900BDCC78 /* PlatformInitial.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7772CE061EC94E6900BDCC78 /* PlatformInitial.sks */; };
+		7772CE091EC94F3D00BDCC78 /* PlatformSetTwo.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7772CE081EC94F3D00BDCC78 /* PlatformSetTwo.sks */; };
+		7772CE0B1EC94F7A00BDCC78 /* PlatformSetThree.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7772CE0A1EC94F7A00BDCC78 /* PlatformSetThree.sks */; };
+		7772CE0D1EC9556F00BDCC78 /* Coin.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7772CE0C1EC9556F00BDCC78 /* Coin.sks */; };
+		7772CE111EC9BBD600BDCC78 /* Spike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7772CE101EC9BBD600BDCC78 /* Spike.swift */; };
 		77BAE9DE1EC6EC3E009A35E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAE9DD1EC6EC3E009A35E6 /* AppDelegate.swift */; };
 		77BAE9E01EC6EC3F009A35E6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 77BAE9DF1EC6EC3F009A35E6 /* GameScene.sks */; };
 		77BAE9E21EC6EC3F009A35E6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 77BAE9E11EC6EC3F009A35E6 /* Actions.sks */; };
@@ -22,10 +35,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7722DB3B1ECDAD5D00011DEA /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		772E27871EC70A810058110D /* Platform.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Platform.sks; sourceTree = "<group>"; };
 		772E27891EC70CB30058110D /* PlatformSetOne.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlatformSetOne.sks; sourceTree = "<group>"; };
-		7772CE021EC70DED00BDCC78 /* Spike.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Spike.sks; sourceTree = "<group>"; };
+		7746B6A31ED6DEC400F749F2 /* PlatformSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlatformSet.swift; path = ../PlatformSet.swift; sourceTree = "<group>"; };
+		7746B6A51ED82B9800F749F2 /* CoinSpawner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinSpawner.swift; sourceTree = "<group>"; };
+		7746B6A71ED82F4400F749F2 /* SpikeSpawner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpikeSpawner.swift; sourceTree = "<group>"; };
+		7746B6A91ED8307D00F749F2 /* Spike.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Spike.sks; path = ../Spike.sks; sourceTree = "<group>"; };
+		7746B6AB1ED8358B00F749F2 /* GameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOver.sks; sourceTree = "<group>"; };
+		7746B6AD1ED8359E00F749F2 /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		774EB8BF1ED1365700368E44 /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Platform.swift; path = ../Platform.swift; sourceTree = "<group>"; };
+		774EB8C11ED2792900368E44 /* Coin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		7772CE041EC748AA00BDCC78 /* CoinSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinSingleton.swift; sourceTree = "<group>"; };
+		7772CE061EC94E6900BDCC78 /* PlatformInitial.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlatformInitial.sks; sourceTree = "<group>"; };
+		7772CE081EC94F3D00BDCC78 /* PlatformSetTwo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlatformSetTwo.sks; sourceTree = "<group>"; };
+		7772CE0A1EC94F7A00BDCC78 /* PlatformSetThree.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlatformSetThree.sks; sourceTree = "<group>"; };
+		7772CE0C1EC9556F00BDCC78 /* Coin.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Coin.sks; sourceTree = "<group>"; };
+		7772CE101EC9BBD600BDCC78 /* Spike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spike.swift; sourceTree = "<group>"; };
 		77BAE9DA1EC6EC3E009A35E6 /* MakeSchoolRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeSchoolRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77BAE9DD1EC6EC3E009A35E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77BAE9DF1EC6EC3F009A35E6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -71,11 +97,19 @@
 				77BAE9F71EC6EE66009A35E6 /* Misc */,
 				77BAE9F81EC6EE78009A35E6 /* Supporting Files */,
 				77BAE9F61EC6EE0D009A35E6 /* Assets */,
+				774EB8BF1ED1365700368E44 /* Platform.swift */,
+				7746B6A31ED6DEC400F749F2 /* PlatformSet.swift */,
 				77BAE9DD1EC6EC3E009A35E6 /* AppDelegate.swift */,
-				77BAE9E11EC6EC3F009A35E6 /* Actions.sks */,
 				77BAE9E31EC6EC3F009A35E6 /* GameScene.swift */,
+				7746B6AD1ED8359E00F749F2 /* GameOver.swift */,
+				7722DB3B1ECDAD5D00011DEA /* Player.swift */,
+				7772CE101EC9BBD600BDCC78 /* Spike.swift */,
+				7746B6A71ED82F4400F749F2 /* SpikeSpawner.swift */,
+				774EB8C11ED2792900368E44 /* Coin.swift */,
+				7746B6A51ED82B9800F749F2 /* CoinSpawner.swift */,
 				7772CE041EC748AA00BDCC78 /* CoinSingleton.swift */,
 				77BAE9E51EC6EC3F009A35E6 /* GameViewController.swift */,
+				77BAE9E11EC6EC3F009A35E6 /* Actions.sks */,
 				77BAE9F51EC6EDF4009A35E6 /* Scenes */,
 				77BAE9EA1EC6EC3F009A35E6 /* Assets.xcassets */,
 				77BAE9EF1EC6EC40009A35E6 /* Info.plist */,
@@ -87,9 +121,14 @@
 			isa = PBXGroup;
 			children = (
 				77BAE9DF1EC6EC3F009A35E6 /* GameScene.sks */,
+				7746B6AB1ED8358B00F749F2 /* GameOver.sks */,
+				7772CE061EC94E6900BDCC78 /* PlatformInitial.sks */,
 				772E27871EC70A810058110D /* Platform.sks */,
+				7772CE081EC94F3D00BDCC78 /* PlatformSetTwo.sks */,
+				7772CE0A1EC94F7A00BDCC78 /* PlatformSetThree.sks */,
 				772E27891EC70CB30058110D /* PlatformSetOne.sks */,
-				7772CE021EC70DED00BDCC78 /* Spike.sks */,
+				7772CE0C1EC9556F00BDCC78 /* Coin.sks */,
+				7746B6A91ED8307D00F749F2 /* Spike.sks */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -149,6 +188,7 @@
 				TargetAttributes = {
 					77BAE9D91EC6EC3E009A35E6 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = F3J4T2R394;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -176,14 +216,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7772CE0D1EC9556F00BDCC78 /* Coin.sks in Resources */,
+				7772CE091EC94F3D00BDCC78 /* PlatformSetTwo.sks in Resources */,
 				77BAE9E91EC6EC3F009A35E6 /* Main.storyboard in Resources */,
 				77BAE9E01EC6EC3F009A35E6 /* GameScene.sks in Resources */,
 				77BAE9EB1EC6EC3F009A35E6 /* Assets.xcassets in Resources */,
 				772E278A1EC70CB30058110D /* PlatformSetOne.sks in Resources */,
-				7772CE031EC70DED00BDCC78 /* Spike.sks in Resources */,
+				7772CE071EC94E6900BDCC78 /* PlatformInitial.sks in Resources */,
+				7746B6AC1ED8358B00F749F2 /* GameOver.sks in Resources */,
 				77BAE9EE1EC6EC3F009A35E6 /* LaunchScreen.storyboard in Resources */,
+				7746B6AA1ED8307D00F749F2 /* Spike.sks in Resources */,
 				772E27881EC70A810058110D /* Platform.sks in Resources */,
 				77BAE9E21EC6EC3F009A35E6 /* Actions.sks in Resources */,
+				7772CE0B1EC94F7A00BDCC78 /* PlatformSetThree.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,10 +239,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				774EB8C01ED1365700368E44 /* Platform.swift in Sources */,
 				77BAE9E41EC6EC3F009A35E6 /* GameScene.swift in Sources */,
 				77BAE9E61EC6EC3F009A35E6 /* GameViewController.swift in Sources */,
+				7746B6AE1ED8359E00F749F2 /* GameOver.swift in Sources */,
 				7772CE051EC748AA00BDCC78 /* CoinSingleton.swift in Sources */,
+				7772CE111EC9BBD600BDCC78 /* Spike.swift in Sources */,
+				7746B6A61ED82B9800F749F2 /* CoinSpawner.swift in Sources */,
+				7722DB3C1ECDAD5D00011DEA /* Player.swift in Sources */,
+				774EB8C21ED2792900368E44 /* Coin.swift in Sources */,
 				77BAE9DE1EC6EC3E009A35E6 /* AppDelegate.swift in Sources */,
+				7746B6A41ED6DEC400F749F2 /* PlatformSet.swift in Sources */,
+				7746B6A81ED82F4400F749F2 /* SpikeSpawner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +373,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F3J4T2R394;
 				INFOPLIST_FILE = MakeSchoolRun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nico.MakeSchoolRun;
@@ -332,6 +386,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F3J4T2R394;
 				INFOPLIST_FILE = MakeSchoolRun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nico.MakeSchoolRun;
